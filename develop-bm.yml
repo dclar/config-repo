@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: develop-foo-config
+  profiles:
+    active: dev
+    
+---
+spring:
+  profiles: dev
+write-value: develop-bm-foo-dev-write-value
+
+---
+spring:
+  profiles: product
+write-value: develop-bm-foo-dev-write-value-product
+
