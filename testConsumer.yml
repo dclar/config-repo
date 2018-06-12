@@ -12,5 +12,5 @@ write-value: develop-testConsumer-foo-dev-write-value
 ---
 spring:
   profiles: product
-write-value: develop-bm-testConsumer-dev-write-value-product
+write-value: product-bm-testConsumer-dev-write-value
 
