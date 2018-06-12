@@ -1,6 +1,6 @@
 spring:
   application:
-    name: develop-foo-config
+    name: bm-foo-config
   profiles:
     active: dev
     

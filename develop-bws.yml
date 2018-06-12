@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: bws-foo-config
+  profiles:
+    active: dev
+    
+---
+spring:
+  profiles: dev
+write-value: develop-bws-foo-dev-write-value
+
+---
+spring:
+  profiles: product
+write-value: product-bws-foo-dev-write-value-product
+
